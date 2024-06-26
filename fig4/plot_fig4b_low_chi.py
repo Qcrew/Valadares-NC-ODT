@@ -412,7 +412,7 @@ def plot_fig4b_low_chi(main_path):
         x_inter, y_inter, np.rot90(new_compiled_final_data), vmin=-1, vmax=1, cmap="bwr"
     )
     ax.set_aspect("equal", "box")
-    fig.savefig(f"{main_path}/fig4/fig4b_high_chi.pdf")
+    fig.savefig(f"{main_path}/fig4/fig4b_low_chi.pdf")
 
     return np.rot90(new_compiled_final_data)
 

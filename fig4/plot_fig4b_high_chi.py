@@ -83,7 +83,7 @@ def cut_indexes(y_inter, angle):
     return x_indicies, y_indicies
 
 
-def plot_fig4b_low_chi(main_path):
+def plot_fig4b_high_chi(main_path):
     print("Plotting fig4b low chi...")
     # high chi with 10 pi2
     folder_path_1 = f"{main_path}/fig4/data/20231130_high_chi/"
@@ -276,4 +276,4 @@ def plot_fig4b_low_chi(main_path):
 
 
 if __name__ == "__main__":
-    plot_fig4b_low_chi(main_path=main_path)
+    plot_fig4b_high_chi(main_path=main_path)
