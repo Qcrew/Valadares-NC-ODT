@@ -1,2 +1,2 @@
-# on-demand-transposition-across-light-matter-interaction-regimes-in-bosonic-cQED
-This repository contains the data used in the paper 'On-demand transposition across light matter interaction regimes in bosonic cQED'
+# On demand transposition across light matter interaction regimes in bosonic cQED
+This repository contains the data and code used to make the plots in the paper 'On-demand transposition across light matter interaction regimes in bosonic cQED'. Each figure has its own folder which contains the scripts used to generate each subfigure. The scripts can be run at once by simply running `plot_all.py` in the main directory.Alternativly, each script can be run individually by changing `main_path` at the top of each script to the path to the repository. Whichever way is used, the plotted subfigures will be saved to their respective figure folders (e.g. figure 2b will be saved in the fig2 folder). 
