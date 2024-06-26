@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.colors as colors
 
 
-main_path = "/Users/kyle/Documents/qcrew/on-demand-transposition-across-light-matter-interaction-regimes-in-bosonic-cQED"
+main_path = None
 
 
 def plot_supp_fig1(main_path):

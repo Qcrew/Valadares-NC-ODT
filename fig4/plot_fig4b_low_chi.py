@@ -9,7 +9,7 @@ import os
 from numpy import linalg as LA
 from scipy.interpolate import interp2d
 
-main_path = "/Users/kyle/Documents/qcrew/on-demand-transposition-across-light-matter-interaction-regimes-in-bosonic-cQED"
+main_path = None
 
 
 def reshape_and_avg(data_array, buffer):
