@@ -8,7 +8,7 @@ from fig4.plot_fig4a_high_kerr import plot_fig4a_high_kerr
 from fig4.plot_fig4a_low_kerr import plot_fig4a_low_kerr
 from fig4.plot_fig4b_high_chi import plot_fig4b_high_chi
 from fig4.plot_fig4b_low_chi import plot_fig4b_low_chi
-from supp_fig1.plot_supp_fig1 import plot_supp_fig1
+from supp_fig2.plot_supp_fig2 import plot_supp_fig2
 
 
 MAIN_DIR = "/Users/kyle/Documents/qcrew/on-demand-transposition-across-light-matter-interaction-regimes-in-bosonic-cQED"
@@ -22,7 +22,7 @@ fig4a_low_kerr_data = plot_fig4a_low_kerr(MAIN_DIR)
 fig4a_high_kerr_data = plot_fig4a_high_kerr(MAIN_DIR)
 fig4b_low_chi_data = plot_fig4b_low_chi(MAIN_DIR)
 fig4b_high_chi_data = plot_fig4b_high_chi(MAIN_DIR)
-supp_fig1_data = plot_supp_fig1(MAIN_DIR)
+supp_fig2_data = plot_supp_fig2(MAIN_DIR)
 
 if SAVE_DATA:
     np.savez(
@@ -35,5 +35,5 @@ if SAVE_DATA:
         fig4a_high_kerr=fig4a_high_kerr_data,
         fig4b_low_chi=fig4b_low_chi_data,
         fig4b_high_chi=fig4b_low_chi_data,
-        supp_fig1=supp_fig1_data,
+        supp_fig2=supp_fig2_data,
     )

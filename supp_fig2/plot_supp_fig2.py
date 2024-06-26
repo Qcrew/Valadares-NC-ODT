@@ -6,9 +6,9 @@ import matplotlib.colors as colors
 main_path = None
 
 
-def plot_supp_fig1(main_path):
+def plot_supp_fig2(main_path):
     file = np.load(
-        f"{main_path}/supp_fig1/data/224810_somerset_qubit_spec_current_sweep_cut.npz"
+        f"{main_path}/supp_fig2/data/224810_somerset_qubit_spec_current_sweep_cut.npz"
     )
     z_signal = file["z_signal"]
     x_currents = file["x_currents"]
@@ -81,10 +81,10 @@ def plot_supp_fig1(main_path):
     ax.set_yticklabels([])
     plt.grid(False)
     fig.savefig(
-        f"{main_path}/supp_fig1/supp_fig1.pdf",
+        f"{main_path}/supp_fig2/supp_fig2.pdf",
     )
     return z
 
 
 if __name__ == "__main__":
-    plot_supp_fig1(main_path=main_path)
+    plot_supp_fig2(main_path=main_path)
