@@ -11,7 +11,7 @@ from fig4.plot_fig4b_low_chi import plot_fig4b_low_chi
 from supp_fig2.plot_supp_fig2 import plot_supp_fig2
 
 
-MAIN_DIR = "/Users/kyle/Documents/qcrew/on-demand-transposition-across-light-matter-interaction-regimes-in-bosonic-cQED"
+MAIN_DIR = "<path-to-repo>"
 SAVE_DATA = False
 
 fig2b_data = plot_fig2b(MAIN_DIR)
